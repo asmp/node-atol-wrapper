@@ -2,11 +2,23 @@
 
 Название
 =========
-Node.js обертка для драйвера торгового оборудования (ДТО) версии [10.9.5.0](http://fs.atol.ru/_layouts/15/atol.templates/Handlers/FileHandler.ashx?guid=9c00e55f-7cfe-4918-8702-8df7e5fca2ca&webUrl=) от компании [АТОЛ](https://www.atol.ru/)
+Node.js обертка для драйвера торгового оборудования (ДТО) версии [10.10.0.0](https://fs.atol.ru/_layouts/15/atol.templates/Handlers/FileHandler.ashx?guid=ab104195-3bf3-41d7-bf4a-24c5edd1adfa&webUrl=) от компании [АТОЛ](https://www.atol.ru/)
 
 [ Источник ](https://forum.atol.ru/lofiversion/index.php/t34345.html)
 
 [Документация по интеграции](http://integration.atol.ru/)
+
+Примечание к релизу
+========
+Обратите внимание: Начиная с версии 10.10.3.0 АТОЛ прекратил прошивку старых версий ККМ (платформа 2.5).
+Данный релиз исправляет ошибки компиляции проекта в среде Node.js >=16.
+Внесены следущие изменения относительно исходного проекта [node-atol-wrapper](https://github.com/farafonov-alexey/node-atol-wrapper):
+- обновлена версия @mapbox/node-pre-gyp
+- обновлена версия nan
+- обновлена версия node >=16.0.0
+- файлы ДТО 10.10.0.0
+
+Важно. Данный релиз не тестировался, предоставляется "как есть", изменения делались "под себя".
 
 Функции
 ========
